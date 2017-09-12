@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;   charset=windows-1252">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Yannick's Portfolio</title>
+</head>
+<body class="modal-open" style="padding-right: 17px;">
+<!--For some unknown reason, the page does not load the vertical sliders until one of the modals for featured work is clicked and closed-->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img class="title-logo img-responsive" src="./img/logo1.png" alt="My logo">
+            </div>
+
+            <div class="text-right text-uppercase">
+                <h1 class="title-super text-thin">Yannick Dongo</h1>
+                <h3>Front-End Ninja</h3>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./img/mybanner1.png" alt="A banner showiny picture and contact information" class="img-responsive">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="./img/personalportfolio1.png" data-toggle="modal" data-target="#personalWebsite" alt="Screenshot of my personal website">
+                <h3><a href="https://yannickdongo.000webhostapp.com/" target="_blank">Personal Website</a></h3>
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="./img/chelseaportfolio2.png" data-toggle="modal" data-target="#appreciationPage" alt="Screenshot of my ChelseaFC legends tribute page">
+                <h3><a href="https://github.com/yannick77/ChelseaFC_legends_Appreciation_page" target="_blank">ChelseaFC Legends Appreciation Page</a></h3>
+            </div>
+
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="./img/GameOfChance1.png" data-toggle="modal" data-target="#gameOfChance" alt="Screenshot of the GameofChance Homescreen">
+                <h3><p>GameOfChance App</p></h3>
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="./img/daltonBookstore.PNG" data-toggle="modal" data-target="#daltonBookstore" alt="Photo of John Terry">
+
+                <h3><p>Dalton Bookstore</p></h3>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="personalWebsite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Personal Website</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="./img/personalportfolio1.png" alt="Screenshot of my personal website">
+                    My own reponsive personal website created with HTML and vanilla CSS. Responsiveness was achieved using media queries and breakpoints.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="appreciationPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">ChelseaFC Legends Appeciation page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="./img/chelseaportfolio2.png" alt="Screenshot of my ChelseaFC legends tribute page">
+                   My responsive tribute page. Responsiveness achieved using bootstrap.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade in" id="gameOfChance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">GameOfChance App</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="./img/GameOfChance1.png" alt="A screenshot of the game of chance app">
+                   An app created for lucky dip and lucky winner applications. It takes a .csv file and parses its contents and then picks a winner at random. Created using HTML, CSS, JS and converted to a windows installable application file.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="daltonBookstore" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Dalton Bookstore</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="./img/daltonBookstore.PNG" alt="Screenshot of the Dalton Bookstore homepage">
+                    A bookstore ordering and managing application, created with Java and apache server to host the database.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
