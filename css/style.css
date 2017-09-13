@@ -5,6 +5,9 @@ body {
 	padding-right: 17px;
 }
 
+.modal {
+	display: none;
+}
 .banner {
 	margin: auto;
 }
@@ -26,4 +29,18 @@ body {
 
 .contact {
 	text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
 }
