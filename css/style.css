@@ -4,6 +4,10 @@ body{
 	font-weight: 300;
 }
 
+.banner{
+	margin: auto;
+}
+
 .text-muted{
 	color: #BCBBBB;
 }
@@ -17,4 +21,8 @@ body{
 
 .title-logo{
 	margin-top: 20px;
+}
+
+.contact{
+	text-align: center;
 }
